@@ -1,0 +1,1 @@
+python3 generate_lm.py --input_txt $1 --output_dir $2 --top_k 10000 --kenlm_bins /home/coderatwork/kenlm/build/bin --arpa_order 5 --max_arpa_memory "85%" --arpa_prune "0|0|1" --binary_a_bits 255 --binary_q_bits 8 --binary_type trie
